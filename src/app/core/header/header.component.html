@@ -1,32 +1,32 @@
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="javascript:void(0)">AlphaShop</a>
+    <a class="navbar-brand" routerLink="">AlphaShop</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="mynavbar">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Home</a>
+          <a class="nav-link" routerLink="/welcome">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Prodotti</a>
+          <a class="nav-link" routerLink="/articoli">Prodotti</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Promozioni</a>
+          <a class="nav-link" routerLink="/promozioni">Promozioni</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Fidelity</a>
+          <a class="nav-link" routerLink="/fidelity">Fidelity</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Ordini</a>
+          <a class="nav-link" routerLink="/ordini">Ordini</a>
         </li>
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="text" placeholder="Search">
         <button class="btn btn-primary" type="button">Cerca</button>
       </form>
-
+      <ul>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
           <img src="/assets/images/user.webp" alt="Avatar Logo" style="width: 40px;" class="user-img rounded-pill">
@@ -39,6 +39,7 @@
           <li><a class="dropdown-item" href="#">Logout</a></li>
         </ul>
       </li>
+    </ul>
     </div>
   </div>
 </nav>

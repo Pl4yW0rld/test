@@ -1,0 +1,11 @@
+.card-product-grid {
+  align-items: center;
+}
+
+.btn {
+  margin: 0 10px 5px 10px;
+}
+
+.price {
+  font-weight: bold;
+}

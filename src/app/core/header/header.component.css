@@ -1,4 +1,19 @@
 .container-fluid .dropdown {
   margin-right: 100px;
-  margin-left: 20px;
+}
+
+.user-img {
+  position: relative;
+  top: 9px;
+}
+
+span {
+  position: relative;
+  top: -2px;
+}
+
+@media only screen and (max-width: 600px) {
+  .user-img{
+    left: -40px;
+  }
 }

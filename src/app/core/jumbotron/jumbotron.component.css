@@ -5,3 +5,6 @@
 h1 {
   font-weight: bold;
 }
+.centered {
+  text-align: center;
+}

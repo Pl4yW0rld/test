@@ -1,0 +1,9 @@
+.title {
+  display: inline;
+  font-size: 2rem;
+}
+.action-button {
+  float: right;
+  margin-top: 5px;
+}
+

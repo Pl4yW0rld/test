@@ -1,0 +1,28 @@
+.container-login {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+}
+.centered {
+  text-align: center;
+}
+form {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  border: 2px solid whitesmoke;
+  box-shadow: 0 0 25px rgb(0, 101, 169);
+}
+label {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.form-check {
+  margin-top: 10px;
+}
+button {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}

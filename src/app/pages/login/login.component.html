@@ -1,0 +1,34 @@
+<app-jumbotron [titolo] = "titolo" [sottotitolo] = "sottotitolo"></app-jumbotron>
+
+<div class="container-login">
+
+  <div *ngIf="!autenticato" class="errMsg">
+    <div class="alert alert-danger centered">
+      <strong>Attenzione!</strong> {{errMsg}}
+    </div>
+    </div>
+
+<form class="needs-validation">
+
+  <div class="form-group">
+    <label for="uname">Utente:</label>
+    <input type="text" class="form-control" id="userId" placeholder="Inserisci il nome utente" name="userId" [(ngModel)]="userId" required>
+    <div class="invalid-feedback">Devi inserire un nome utente valido</div>
+  </div>
+
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="password" placeholder="Enter password" name="password" [(ngModel)]="password" required>
+    <div class="invalid-feedback">Devi Inserire una password valida</div>
+  </div>
+
+  <div class="form-group form-check">
+      <input class="form-check-input" type="checkbox" name="remember" required> <p>Accetto Tutti i termini della privacy del mondo</p>
+      <div class="invalid-feedback">Accetta i termini per proseguire</div>
+  </div>
+
+  <button  type="submit" class="btn btn-primary" (click)="gestAuth()">Accedi</button>
+
+</form>
+</div>
+

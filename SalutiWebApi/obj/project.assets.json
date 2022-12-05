@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bufal\\Documents\\Code\\angular+dotnet+msql-udemy\\SalutiWebApi\\SalutiWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\bufal\\Documents\\Code\\angular+dotnet+msql-udemy\\alphashop\\SalutiWebApi\\SalutiWebApi.csproj",
       "projectName": "SalutiWebApi",
-      "projectPath": "C:\\Users\\bufal\\Documents\\Code\\angular+dotnet+msql-udemy\\SalutiWebApi\\SalutiWebApi.csproj",
+      "projectPath": "C:\\Users\\bufal\\Documents\\Code\\angular+dotnet+msql-udemy\\alphashop\\SalutiWebApi\\SalutiWebApi.csproj",
       "packagesPath": "C:\\Users\\bufal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bufal\\Documents\\Code\\angular+dotnet+msql-udemy\\SalutiWebApi\\obj\\",
+      "outputPath": "C:\\Users\\bufal\\Documents\\Code\\angular+dotnet+msql-udemy\\alphashop\\SalutiWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

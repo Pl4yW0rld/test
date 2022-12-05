@@ -8,9 +8,7 @@ var app = builder.Build();//default
 
 app.UseRouting(); //usa routing
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}"); // mappatuta routing default
+app.MapControllers();
 
 app.MapGet("/", () => "Hello World!"); // aggiunge rotta singola
 

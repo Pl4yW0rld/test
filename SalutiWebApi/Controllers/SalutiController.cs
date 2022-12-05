@@ -4,7 +4,7 @@ namespace SalutiWebApi.Controllers
 {
         [ApiController]
         [Route("api/saluti")]
-    public class SalutiController : Controller
+    public class SalutiController
     {
         public string getSaluti()
         {
